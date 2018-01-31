@@ -1,15 +1,10 @@
 {
-  "name": "hello_world",
-  "authors": [
-    "Tin Nguyen <trungtinnguyen1994@gmail.com>"
-  ],
-  "description": "",
-  "main": "wwwroot/index.html",
+  "name": "helloworld",
   "private": true,
   "dependencies": {
-    "underscore": "latest",
-    "jquery": "latest",
-    "jquery-validation": "latest",
-    "jquery-validation-unobtrusive": "latest"
+    "jquery": "~3.3.1",
+    "jquery-validation": "~1.17.0",
+    "jquery-validation-unobtrusive": "~3.2.6",
+    "bootstrap": "~3.3.7"
   }
 }

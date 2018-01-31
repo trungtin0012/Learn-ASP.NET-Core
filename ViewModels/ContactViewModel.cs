@@ -12,7 +12,10 @@ namespace HelloWorld.ViewModels
         public string Email { set; get; }
 
         [Required]
-        [StringLength(4096, MinimumLength = 10) ]
+        public string Subject { set; get; }
+
+        [Required]
+        [MaxLength(250)]
         public string Message { set; get; }
     }
 }

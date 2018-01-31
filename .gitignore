@@ -1,3 +1,4 @@
 /bin/*
 /bower_components
 /obj/*
+/.vs/HelloWorld/v15/Server/sqlite3
